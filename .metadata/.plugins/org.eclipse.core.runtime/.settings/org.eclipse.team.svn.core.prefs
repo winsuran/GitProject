@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+externalMigrateFromAuthorizationDatabase/isMigrated=true
+migrateFromAuthorizationDatabase/isMigrated=true
+repositories/80d540a9048e00151f3ee25f85f7d832=80d540a9048e00151f3ee25f85f7d832;http\://192.168.101.62/svn/myplan;http\://192.168.101.62/svn/myplan;branches;tags;trunk;true;8d6e0c2f-28e0-45ef-b1d1-d937aa0417ee;http\://192.168.101.62/svn/myplan;;false;;;0

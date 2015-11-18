@@ -1,0 +1,216 @@
+@charset "utf-8";
+/* CSS Document */
+section {background: none repeat scroll 0 0 rgba(0, 0, 0, 0);}
+.sidePanelLft {
+	border-radius:0;
+	background:#fff;
+	font-size:16px;
+	min-height:270px;
+}
+.centerMargin {margin-left: 8%;}
+.nav-pills.nav-stacked > li > a {
+    background-color: #fff;
+    border: 0px solid #e3e3e3;
+	padding: 10px;
+	margin-bottom: 5px;
+	color:#585858; 
+	cursor:pointer;
+}
+.nav-pills li > a:hover {
+	background-color: #23c9fd; 
+	color:#fff;
+	border-radius:0;
+	 padding: 10px;
+}
+.nav-pills.nav-stacked {
+    padding:15px;
+	border: 1px solid #ddd;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+	background-color: #23c9fd; 
+	color:#fff;
+	border-radius:0;
+	 padding: 10px;
+}
+
+
+.sidePanelRight {
+	border-radius:0;
+	background:#fff;
+	font-size:16px;
+	min-height:270px;
+}
+.sidePanelRight .panel-heading {
+	background:#fff; 
+	padding:15px;  
+}
+.sidePanelRight .panel-heading .panel-title {
+	font-size:24px;
+	color:#585858;
+}
+.sidePanelRight .panel-body table td {
+	padding-top:12px;
+	padding-bottom:12px;
+}
+.sidePanelRight .panel-body table .userImg {
+	max-width:32px;
+	max-height:32px;
+	min-width:32px;
+	min-height:32px;	
+	border: 1px solid #9a9a9a;
+}
+#upload-file-info {display:none;}
+.uploadBtn {
+	background-color: #fff;
+    border-color: #fff;
+    color: #585858;
+	text-shadow:none;
+	cursor:pointer;
+	box-shadow:none;
+	text-decoration:underline;
+}
+.uploadBtn:hover, .uploadBtn:active, .uploadBtn:focus {
+	background-color: #fff;
+    border-color: #fff;
+    color: #585858;
+	text-shadow:none;
+	box-shadow:none;
+	cursor:pointer;
+}
+.sidePanelRight .panel-body table label {
+	padding-left:20px; 
+	color:#585858;
+	font-size:14px; 
+}
+.sidePanelRight .panel-body select {
+    height: 40px;
+	padding-left:10px;
+	font-size:14px; 
+}
+.sidePanelRight .panel-body span {
+    float: left;
+    margin: 8px 11px;
+}
+.col-lg-2 {
+    width: 14.9%;
+}
+.sidePanelRight .panel-body input[type='checkbox'] {
+    margin-left: -7px;
+    margin-top: -5px;
+}
+.squaredThree {
+    margin-top: 5px;
+    position: relative;
+    width: 34px;
+}
+.squaredThree {
+    margin-top: 5px;
+    position: relative;
+}
+.squaredThree label {
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.5) inset, 0 1px 0 rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    height: 18px;
+    margin-left: 0;
+    margin-top: 4px;
+    padding: 2px !important;
+    position: absolute;
+    top: 0;
+    width: 18px;
+}
+.squaredThree label::after {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 transparent;
+    border-color: -moz-use-text-color -moz-use-text-color #585858 #585858;
+    border-image: none;
+    border-style: none none solid solid;
+    border-width: medium medium 3px 3px;
+    content: "";
+    height: 7px;
+    left: 3px;
+    opacity: 0;
+    position: absolute;
+    top: 5px;
+    transform: rotate(-45deg);
+    width: 12px;
+}
+.squaredThree label:hover::after {
+    opacity: 0.3;
+}
+.squaredThree input[type="checkbox"]:checked + label::after {
+    opacity: 1;
+}
+#squaredThree {
+    margin-left: 10px;
+}
+.labelChck1 {
+    float: left;
+    margin-left: 25px;
+    margin-top: -30px;
+    padding-left: 10px !important;
+    text-align: left;
+	font-size:14px;
+}
+.paddingL0 {
+    padding-left: 0 !important;
+}
+.deleteAccTxt {
+	color:#F00 !important;
+	text-decoration:underline;
+	cursor:pointer;
+}
+.deleteAccTxt:hover {
+	text-decoration:none;
+	color:#F30 !important;
+}
+.sidePanelRight .panel-body table td:first-child {
+	width:28%;
+}
+#emailPasswordDiv .sidePanelRight .panel-body table td:first-child {width: 34%;}
+
+
+.deleteAccDiv {width: 404px;}
+.deleteAccDiv label {font-size: 13px; margin-top:10px; text-transform: none;}
+.deleteAccDiv .squaredThree {
+    float: left;
+    margin-top: 4px;
+    position: relative;
+}
+.deleteAccDiv .hideCheckbox {margin-top: 12px;}
+.deleteAccDiv .labelChck1 {
+    margin-left: -15px;
+    margin-top: 11px !important;
+}
+.deleteAccDiv .btn-danger {
+    background-color: #8d1c34;
+    border-color: #8d1c34;
+    color: #fff;
+}
+.deleteAccDiv .btn-danger:hover {
+    background-color: #711226;
+    border-color: #711226;
+    color: #fff;
+}
+
+@media (max-width: 639px) {
+.col-md-3 {width: 100%;}
+.sidePanelLft {min-height: auto; margin-bottom:20px;}
+input[type="text"], input[type="password"] {width: 220px;}
+.col-lg-2 {width: 21.5% !important;}
+.col-lg-12 { width: 100%;}
+.sidePanelRight .panel-body table label {text-align: left;}
+.centerMargin {margin-left: 0;}
+}
+@media (min-width: 640px) and (max-width: 807px) {
+.col-md-3 {width: 100%;}
+.sidePanelLft {min-height: auto; margin-bottom:20px;}
+input[type="text"], input[type="password"] {width: 220px;}
+.col-lg-2 {width: 11% !important;}
+.col-lg-12 { width: 100%;}
+.centerMargin {margin-left: 0;}	
+}

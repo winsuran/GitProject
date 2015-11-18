@@ -1,0 +1,323 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mrgnTop5P {margin-top: 5%;}
+
+h1 {
+    color: #575757;
+    font-size: 22px;
+    font-weight: normal;
+    margin-top: 12px;
+}
+hr {
+	color: #FFFFFF;
+    height: 1px;
+    opacity: 0.4;
+	border-color:#575757;
+}
+.weekTitles {
+	font-size:16px;
+	font-family: "century_gothicbold";
+	color:#575757;
+	width:100%;
+	text-align:left;
+}
+.hourSelect {
+    padding: 5px;
+    width: 65px;
+	float: left;
+}
+.hourSelect + span {
+    float: left;
+    font-size: 16px;
+    margin: 7px 7px 7px 10px;
+    position: relative;
+}
+.marginL20 {margin-left:18px;}
+.btn-warning {
+    background-color: #f0ad4e;
+    border-color: #eea236;
+    color: #000;
+	padding: 4px 20px !important;
+}
+.smallNote {
+	font-size:12px;
+	color:#F00;
+	text-transform:none;
+}
+.hourCal {
+	width:500px;
+}
+.addEventBtn {
+	padding: 4px 20px !important;
+	color:#666 !important;
+}
+.subjectsDiv {
+    width: 370px;
+}
+.booksImg {
+	background:url(../images/subjectsImg.jpg);
+	width:43px;
+	height:43px;
+	margin-right: 20px;
+	float:left;
+}
+.subjectsDiv .modal-title, .subjectIn .modal-title {
+	width:80%;
+	margin-top: -5px;
+}
+.modal-subtitle {
+	color: #7a7a7a;
+    font-size: 18px;
+    margin-bottom: -2px;
+    margin-top: -2px;
+    width: 80%;
+}
+.floatNone {float:none !important;}
+.subjectsDiv p {
+    float: none;
+    margin: auto;
+	color:#7a7a7a;
+	margin: 20px auto;
+    width: 62%;
+}
+.subjectsDiv a {
+	color:#00aeef;
+	cursor:pointer;	
+}
+.subjectsDiv .modal-body {min-height: 300px;}
+#filledSubjects .well {
+    margin-left: -15px;
+	padding: 14px 15px;
+	margin-bottom: 10px;
+    width: 109%;
+	cursor:pointer;
+}
+#filledSubjects .well:hover {background-color: #e5e5e5;}
+#filledSubjects .well .colorBox {
+	height:18px;
+	width:18px;
+	float:left;
+	background-color:#a8120e;
+}
+#filledSubjects .well p {
+    color: #000;
+    float: left;
+    font-size: 16px;
+    margin: -3px 0 0 15px;
+    width: 50%;
+}
+#filledSubjects .well span {font-size: 14px;}
+.mrgnLft5 {margin-left:5px;}
+.subjectIn {width:600px;}
+.subjectIn input[type="text"] {padding: 6px 10px;}
+.subjectIn .col-lg-2 {width: 14%;}
+.colorLable {
+    text-align: left;
+    width: 100%;
+}
+.dropdown, .dropup {
+    float: left;
+    margin-left: 0;
+    margin-top: -35px;
+    position: relative;
+    text-align: left;
+}
+#colorselector {
+    display: block !important;
+    float: left;
+    font-size: 14px;
+    height: 35px;
+    width: 76px;
+}
+#colorselector1 {
+    display: block !important;
+    float: left;
+    font-size: 14px;
+    height: 35px;
+    width: 76px;
+}
+.dropdown-toggle {
+    float: left;
+    height: 30px;
+    padding: 5px 5px 5px 10px;
+    width: 64px;
+}
+.dropdown-toggle .btn-colorselector {
+	display: block !important;
+    height: 20px;
+    width: 20px;
+}
+.dropdown-colorselector > .dropdown-menu {
+    border-radius: 0;
+    height: 100px;
+    left: -54px;
+    min-width: 130px;
+    padding: 4px;
+    top: 94%;
+}
+.dropdown-colorselector > .dropdown-menu > li {
+    display: block;
+    float: left;
+    height: 25px;
+    margin: 2px;
+    width: 25px;
+}
+.dropdown-colorselector > .dropdown-menu > li > .color-btn {
+    border-radius: 0;
+    display: block;
+    height: 25px;
+    margin-bottom: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding: 0;
+    position: relative;
+    transition: all 0.1s ease 0s;
+    width: 25px;
+}
+
+.dropdown-menu.dropdown-caret::before, .dropdown-menu.dropdown-caret::after {
+    border-bottom: 0 solid rgba(0, 0, 0, 0.2);
+    border-left: 0 solid transparent;
+    border-right: 0 solid transparent;
+}
+.subjectIn p {
+    padding:3px;
+	font-size:13px;
+	margin-top:10px;
+}
+.addTopics {
+	color:#575757;
+	text-decoration:underline;
+	cursor:pointer;
+}
+.addTopics:hover {
+	color:#00aeef;
+}
+.addTopicBtn {
+    margin-top: 32px;
+    padding: 1px 14px;
+}
+#topicsDiv table {
+	font-size:14px;
+	margin-top: 20px;
+	text-align:left;
+}
+#topicsDiv table td {
+	padding:3px 5px;
+	float:left;
+}
+.binTd {width:20px;}
+.binTd img:hover {background:url(../images/topicDelH.jpg) !important; z-index:999;}
+.spentTimeTd {color:#a4a4a4;}
+.topicNameTd {color:#000;}
+.topicNameTdDone {color:#3c8c01 !important;}
+#topicsDiv table a {
+	float:left;
+	cursor:pointer;
+}
+#topicsDiv table img {
+    margin-top: 3px;
+}
+.progress {
+    background-color: #f5f5f5;
+    border-radius: 7px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+    height: 40px;
+    margin-bottom: 20px;
+	padding:0;
+    overflow: hidden;
+}
+.progress-bar {
+    background-color: #337ab7;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15) inset;
+    color: #fff;
+    float: left;
+    font-size: 12px;
+    height: 100%;
+    line-height: 20px;
+	border-radius: 5px 0 0 5px;
+    padding: 7px;
+    text-align: center;
+    transition: width 0.6s ease 0s;
+    width: 0;
+}
+.progress-bar-success {
+    background-color: #5cb85c;
+}
+.progress-bar-info {
+	background-color: #5bc0de
+}
+.progress-bar-warning {
+	background-color: #f0ad4e
+}
+.progress-bar-danger {
+	background-color: #d9534f
+}
+.remainHrs {
+	font-size:16px;
+	font-family:'century_gothicbold';
+	color:#F00;
+	margin-top: -15px;
+}
+.remainHrs .hours, .remainHrs .minutes {
+	font-size:34px;
+}
+.remainHrs .normalTxt {
+	color:#000;
+	font-family:'century_gothicregular';
+}
+.modal-footer .mainDelBtn::before {
+	content:url(../images/mainDelBtn.png);
+	height:17px;
+	width:14px;
+	float:left;
+	margin-right: 10px;
+}
+.mainDelBtn {
+	font-family:'century_gothicregular';
+	font-size:14px;
+	text-align:left;
+	color:#000;
+	cursor:pointer;
+	margin-top: 6px;
+	float: left;
+}
+.mainDelBtn:hover {
+	color:#ff0000;
+	text-decoration:none;
+}
+.modal-footer .mainDelBtn:hover::before {content:url(../images/mainDelBtnH.png);}
+#startDate, #endDate {pointer-events: none; cursor:default;}
+@media (max-width: 639px) {
+.col-sm-6 {width:100%;}
+#datetimepicker2 {margin-top:0 !important;}
+#timeSchedule .col-lg-11:last-of-type  {width:100%;}
+.hourCal {width: 100%;}
+.hourCal .col-lg-7 {
+    float: right;
+    width: 62%;
+}
+.hourCal .col-lg-5 {
+    width: 36%;
+}
+#newEvent {width:100%;}
+.hourCal .col-lg-7 .col-lg-12 {margin-top:0;}
+
+.subjectIn { width: 100%;}
+select {
+    margin-top: 0 !important;
+}
+
+}
+@media (min-width: 640px) and (max-width: 807px) {
+.hourCal .col-lg-7 {
+    float: right;
+    width: 62%;
+}
+.hourCal .col-lg-5 {
+    width: 36%;
+}
+#newEvent {width:100%;}
+	
+}

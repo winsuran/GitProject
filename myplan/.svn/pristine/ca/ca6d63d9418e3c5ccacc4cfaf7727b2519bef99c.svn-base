@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+.panel {padding:0; float:left; width:100%; font-size:14px;}
+.panel-title {
+    text-align: left;
+    width: 90%;
+	float:left; 
+	padding-top: 4px;
+}
+.panel-heading {
+    float: left;
+    padding: 5px 15px;
+    width: 100%;
+}
+.accordionUpArrow {
+	background:url(../images/upArrow.png);
+	height:25px;
+	width:25px;
+	float:right;
+	background-repeat:no-repeat;
+}
+h4 + .collapsed {
+	background:url(../images/upArrow.png);
+	height:25px;
+	width:25px;
+	float:right;
+	background-repeat:no-repeat;
+	transform: rotate(180deg);
+}
+.progressTable {
+	font-size:14px;
+	color:#575757;
+	text-align:left;
+}
+.progressTable td {
+	vertical-align:top;
+	padding: 2px 0;
+}
+.progressTable th {
+	text-align:center;
+	font-weight:bold;
+}
+
+
+.btn-group > .btn, .btn-group > .dropdown-menu, .btn-group > .popover {
+    padding: 2px 6px;
+}
+.progressTable input[type="text"] {padding: 5px;}
+.progressTable .time {padding: 5px; width: 60px;}
+.progressTable .dash {
+    font-size: 19px;
+    font-weight: bold;
+	margin-right: -3px;
+}
+.progressTable .binTd {
+    width: 20px;
+	padding-top: 6px;
+}
+.progressTable .binTd a {
+    cursor:pointer;
+}
+.progressTable .title {
+	padding-top: 7px;
+	width: 281px;
+}
+.titleTh {
+    width: 251px !important;
+}
+.displayN {display:none;}
+.addTopicBtn {
+    margin-top: 2px;
+    padding: 1px 14px;
+}
+.btn-warning {
+    background-color: #d9534f;
+    border-color: #d9534f;
+    color: #fff;
+	padding: 2px 10px;
+}
+.btn-warning:hover, .btn-warning:focus {background-color: #cf2b26;}
+.progressTable .glyphicon-chevron-down::before {
+    content: "";
+    float: right;
+    font-size: 14px;
+    margin-bottom: -2px;
+    margin-left: 16px;
+}
+.topicTable {font-size:13px; color:#8c8c8c; width:78%;}
+@media (max-width: 639px) {
+.col-lg-12 {width: 100%;}
+.titleTh {width: 182px !important;}
+.progressTable .title {width: 180px;}
+.topicTable {width:73%;}
+
+}
+@media (min-width: 640px) and (max-width: 807px) {
+.col-lg-12 {width: 100%;}
+	
+}

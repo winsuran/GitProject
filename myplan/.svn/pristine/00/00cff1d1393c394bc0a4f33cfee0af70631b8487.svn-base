@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mrgnTop5P {margin-top: 5%;}
+
+h1 {
+    color: #575757;
+    font-size: 22px;
+    font-weight: normal;
+    margin-top: 12px;
+}
+hr {
+	color: #FFFFFF;
+    height: 1px;
+    opacity: 0.4;
+	border-color:#575757;
+}
+.weekTitles {
+	font-size:16px;
+	font-family: "century_gothicbold";
+	color:#575757;
+	width:100%;
+	text-align:left;
+}
+.hourSelect {
+    padding: 5px;
+    width: 65px;
+	float: left;
+}
+.hourSelect + span {
+    float: left;
+    font-size: 16px;
+    margin: 7px 7px 7px 10px;
+    position: relative;
+}
+.marginL20 {margin-left:18px;}
+.btn-warning {
+    background-color: #f0ad4e;
+    border-color: #eea236;
+    color: #000;
+	padding: 4px 20px !important;
+}
+.smallNote {
+	font-size:12px;
+	color:#F00;
+	text-transform:none;
+}
+
+@media (max-width: 639px) {
+.col-sm-6 {width:100%;}
+#datetimepicker2 {margin-top:0 !important;}
+
+}

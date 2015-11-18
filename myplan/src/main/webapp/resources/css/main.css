@@ -1,0 +1,723 @@
+/* Version 1.1 -|- 8 May 2014 */
+
+@charset "utf-8";
+
+body {
+	margin: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	font-family:'century_gothicregular';
+	font-size: 80%;
+	font-weight: normal;
+	background: #eaeaea;
+}
+section {
+    background: none repeat scroll 0 0 #fff;
+    width: 92.2% !important;
+	height:100vh;
+}
+.outer {
+    
+}
+
+@font-face {
+    font-family: 'century_gothicregular';
+    src: url('century_gothic-webfont.eot');
+    src: url('century_gothic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('century_gothic-webfont.woff') format('woff'),
+         url('century_gothic-webfont.ttf') format('truetype'),
+         url('century_gothic-webfont.svg#century_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'century_gothicbold';
+    src: url('century_gothic_bold-webfont.eot');
+    src: url('century_gothic_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('century_gothic_bold-webfont.woff') format('woff'),
+         url('century_gothic_bold-webfont.ttf') format('truetype'),
+         url('century_gothic_bold-webfont.svg#century_gothicbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'BrushScriptStd';
+	src: url('./BrushScriptStd.eot');
+	src: local('BrushScriptStd'), url('./BrushScriptStd.woff') format('woff'), url('./BrushScriptStd.ttf') format('truetype');
+}
+
+.fontsforweb_fontid_11739 {
+	font-family: 'BrushScriptStd' !important;
+}
+	
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+	display:block;
+}
+
+ol,ul,button{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	border: none;
+}
+
+a,img a,img,a img {
+	border:0;
+	outline:0;
+	text-decoration:none;
+}
+
+form {
+	border:0;
+	margin:0;
+	padding:0;
+	outline:0;
+}
+
+label {
+	text-transform: capitalize;
+}
+
+.clear {
+  display: block;
+  float: none;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 1px;
+  line-height: 1px;
+  width: 100%;
+  height: 1px;
+}
+
+.caps {
+	text-transform: uppercase;
+}
+
+.wrapper {
+	margin: 0 auto;
+	/*min-height: 640px;*/
+	padding: 0 0px;
+	max-width: 960px;
+}
+
+header {
+    float: left;
+    padding: 0;
+	margin: 0px;
+    width: 100%;
+}
+.content {
+	float: left;
+    width: 100%;
+}
+
+label {
+	display: block;
+	text-align: center;
+	padding: 3px;
+	margin: 0;
+}
+input[type="text"] {
+    border: 1px solid #e2e2e2;
+    font-family: "century_gothicregular";
+    font-size: 14px;
+	border-radius: 0;
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+}
+input[type='password'] {
+    border: 1px solid #e2e2e2;
+    font-family: "century_gothicregular";
+	border-radius: 0;
+    font-size: 14px;
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+}
+textarea {
+    border: 1px solid #e2e2e2;
+    font-family: "century_gothicregular";
+	border-radius: 0;
+    font-size: 14px;
+	height: 150px;
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+}
+.form-control {border-radius:0;}
+.input-group.date .input-group-addon {border-radius: 0;}
+.input-group[class*="col-"] {float: left;}
+form div {
+	text-align: center;
+	padding: 3px;
+	margin: 0;
+}
+
+.mainMenu {
+	width:93px;
+	float:left;
+	height:100vh;
+	background:#434343;
+}
+.logo {
+    background-image: url("../images/logo.jpg");
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    height: 88px;
+    width: 100%;
+	cursor:pointer;
+}
+.menuItems {
+	margin-top:20px;
+	float:left;
+	width:100%;
+}
+.menuItems li {
+    float: left;
+    padding: 26px 0 20px 26px;
+    width: 100%;
+}
+.dashboard {
+    background: url("../images/dashboard.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 39px;
+	cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 39px;
+}
+.dashboard:hover, .activesDashboard {
+  background: url("../images/dashboardH.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.calendar {
+    background: url("../images/calendar.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 39px;
+    margin-left: auto;
+	cursor: pointer;
+    margin-right: auto;
+    width: 39px;
+}
+.calendar:hover, .activesCalendar {
+  background: url("../images/calendarH.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.reports {
+    background: url("../images/reports.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 39px;
+    margin-left: auto;
+    margin-right: auto;
+	cursor: pointer;
+    width: 39px;
+}
+.reports:hover, .activesReports{
+  background: url("../images/reportsH.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.terms {
+    background: url("../images/terms.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 39px;
+    margin-left: auto;
+	cursor: pointer;
+    margin-right: auto;
+    width: 39px;
+}
+.terms:hover, .activesTerms {
+  background: url("../images/termsH.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.help {
+    background: url("../images/help.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 39px;
+    margin-left: auto;
+	cursor: pointer;
+    margin-right: auto;
+    width: 39px;
+	-webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+}
+.help:hover, .activesHelp {
+  background: url("../images/helpH.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+/*.userLi {
+    padding: 26px 0 5px !important;
+    width: 100% !important;
+	margin-top: 100px;
+	height: auto !important;
+}*/
+.userLi {
+    bottom: 10px;
+    height: auto !important;
+    padding: 26px 0 5px !important;
+	cursor: default !important;
+    position: absolute;
+    width: 93px !important;
+}
+.user {
+    float: left;
+	cursor:pointer;
+    height: 45px;
+    margin-left: 23px;
+    width: 45px;
+}
+.user:hover {
+	background:url(../images/userH.png) !important;
+}
+.user img:hover {
+	opacity:0.2;
+}
+.userName {
+    color: #fff;
+    float: left;
+    font-family: "century_gothicbold";
+    font-size: 12px;
+    margin-top: 5px;
+    padding: 0 10px;
+    text-align: center;
+    width: 100%;
+}
+.userName:hover {color:#fff; text-decoration:none;}
+.tooltip{
+	font-size:12px;
+	font-family: "century_gothicregular";
+	font-weight:bold;
+	color:#0bc3fd;
+}
+.tooltip-inner {
+	color:#fff;
+	background-color:#0bc3fd;
+	padding:5px 10px;
+}
+.tooltip.right .tooltip-arrow {border-right-color:#0bc3fd;}
+.divBox {
+	border:1px solid #c2c2c2;
+	background:#fff;
+	padding-bottom:20px;
+}
+.marginLft22P {margin-left: 22%;}
+label {
+	font-size: 16px; 
+	font-family: "century_gothicregular";
+	float:left;
+	color:#575757;
+	font-weight:normal;
+}
+p {
+	font-size: 14px; 
+	font-family: "century_gothicregular";
+	text-align:left;
+	float:left;
+	color:#575757;
+	font-weight:normal;
+}
+.padding0 {padding:0;}
+.paddingL0 {padding-left:0;}
+.fontColorRed {color:#F00;}
+.fontColorBlue {color:#00aeef;}
+.fontBold {font-weight:bold;}
+.mrgnTop20 {margin-top: 20px !important;}
+.btn-primary {
+    background-color: #00aeef;
+    border-color: #00aeef;
+    color: #fff;
+}
+.btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
+	background-color: #18c0ff;
+	border-color: #18c0ff;
+	transform:scale(1,1);
+}
+.btn {border-radius:0;}
+.modal-header {background-color: #f5f5f5;}
+
+/* adjust body when menu is open */
+body.slide-active {
+    overflow-x: hidden
+}
+/*first child of #page-content so it doesn't shift around*/
+.no-margin-top {
+    margin-top: 0px!important
+}
+#page-content.slide-active {
+    padding-top: 0
+}
+/* put toggle bars on the left :: not using button */
+#slide-nav .navbar-toggle {
+    cursor: pointer;
+    position: relative;
+    line-height: 0;
+    float: left;
+    margin: 0 0 0 16px;
+    width: 30px;
+    height: 40px;
+    padding: 10px 0 0 0;
+    border: 0;
+    background: transparent;
+}
+/* icon bar prettyup - optional */
+#slide-nav .navbar-toggle > .icon-bar {
+    width: 100%;
+    display: block;
+    height: 3px;
+    margin: 5px 0 0 0;
+}
+#slide-nav .navbar-toggle.slide-active .icon-bar {
+    background: orange;
+}
+.navbar-header {
+    position: relative;
+}
+/* un fix the navbar when active so that all the menu items are accessible */
+.navbar.navbar-fixed-top.slide-active {
+    position: relative;
+}
+.navbar {display:none;}
+/* screw writing importants and shit, just stick it in max width since these classes are not shared between sizes */
+/*#page-content {
+    left: auto;
+    padding-top: 0;
+    position: absolute;
+}*/
+
+.modal {
+    background-clip: padding-box;
+    background-color: transparent;
+    border: 0px solid rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    box-shadow: none;
+    left: 0;
+    margin-left: 0;
+	overflow: scroll;
+    outline: medium none;
+    position: fixed;
+    top: 10%;
+    width: auto;
+    z-index: 1050;
+}
+.modal-content {border-radius: 0;}
+.modal.fade.in {top: 0;}
+.modal-dialog {
+    margin: 8% auto 30px;
+    width: 600px;
+}
+.wellMain {
+    background-color: #fff;
+    border: 1px solid #e3e3e3;
+    border-radius: 0px;
+    box-shadow: none;
+    margin-bottom: 40px;
+    min-height: 20px;
+    padding: 12px 30px 19px 40px;
+	height: 89px;
+	width:100%;
+	float:left;
+}
+.wellMain h1 {
+	color:#0bc3fd;
+	font-size:32px;
+	float:left;
+	font-family: "century_gothicbold";
+}
+.wellMain button {
+	margin:18px 0;
+	padding: 4px 27px;
+}
+.well {
+    border: 0 solid #e3e3e3;
+    border-radius: 0;
+    box-shadow: none;
+    float: left;
+    padding: 14px 30px 14px 40px;
+    width: 100%;
+}
+.well h1 {
+	color:#000;
+	font-size:24px;
+	margin: 10px 0;
+	float:left;
+	font-family: "century_gothicregular";
+}
+.well button, .well a {
+	margin: 9px 0 9px 15px;
+	padding: 4px 27px;
+}
+.editBtnPadding {padding: 4px 27px 4px 22px !important;}
+.well .glyphicon { margin-right: 8px;}
+.modal-title {
+    color: #575757;
+    font-size: 22px;
+    font-weight: normal;
+}
+.modal-header .close {
+    margin-top: 5px;
+}
+.modal-body {
+    max-height: none;
+    overflow-y: hidden;
+}
+#note {
+    margin-bottom: 30px;
+}
+.modal.fade .modal-dialog {
+    -webkit-transform: scale(0.1);
+    -moz-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    transform: scale(0.1);
+    top: 300px;
+    opacity: 0;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.modal.fade.in .modal-dialog {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform: translate3d(0, -300px, 0);
+    transform: translate3d(0, -300px, 0);
+    opacity: 1;
+}
+/*.fade.in {
+    z-index: 1;
+}
+#newTerm {
+    z-index: 2;
+}
+#timeSchedule {
+    z-index: 3;
+}*/
+.modal-header .close {margin-top: 0;}
+.close {font-size: 38px; font-weight: bold;}
+@media (max-width: 639px) {
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+	float:left;
+}
+section {width: 100% !important;}
+.wellMain {height: auto;}
+.mainMenu {display:none;}
+.marginLft22P {margin-left: 0%;}
+.well h1 {
+    text-align: center;
+    width: 100%;
+}
+.editBtnPadding {padding: 4px 68px 4px 41px !important;}
+.modal-header .close {margin-top: -5px;}
+.modal-dialog {width: 100%;}
+.navbar {display:block;}
+.navbar-inverse {
+    background-color: #0bc3fd;
+    border-color: #0bc3fd;
+}
+#slide-nav .container {
+	    margin: 0;
+	    padding: 0!important;
+	}
+	#slide-nav .navbar-header {
+	    margin: 0 auto;
+	    padding: 0 15px;
+	}
+	#slide-nav .navbar.slide-active {
+	    position: absolute;
+	    width: 20%;
+	    top: -1px;
+	    z-index: 1000;
+	}
+	#slide-nav #slidemenu {
+	    background: #f7f7f7;
+	    left: -100%;
+	    width: 19%;
+	    min-width: 0;
+	    position: absolute;
+	    padding-left: 0;
+	    z-index: 2;
+	    top: -8px;
+	    margin: 0;
+	}
+	#slide-nav #slidemenu .navbar-nav {
+	    min-width: 0;
+	    width: 100%;
+	    margin: 0;
+	}
+	#slide-nav #slidemenu .navbar-nav .dropdown-menu li a {
+	    min-width: 0;
+	    width: 80%;
+	    white-space: normal;
+	}
+	#slide-nav {
+	    border-top: 0
+	}
+	#slide-nav.navbar-inverse #slidemenu {
+	    background: #333
+	}
+	/* this is behind the navigation but the navigation is not inside it so that the navigation is accessible and scrolls*/
+	#slide-nav #navbar-height-col {
+	    position: fixed;
+	    top: 0;
+	    height: 100%;
+	    width: 19%;
+	    left: -80%;
+	    background: #eee;
+	}
+	#slide-nav.navbar-inverse #navbar-height-col {
+	    background: #333;
+	    z-index: 1;
+	    border: 0;
+	}
+	#slide-nav .navbar-form {
+	    width: 100%;
+	    margin: 8px 0;
+	    text-align: center;
+	    overflow: hidden;
+	    /*fast clearfixer*/
+	}
+	#slide-nav .navbar-form .form-control {
+	    text-align: center
+	}
+	#slide-nav .navbar-form .btn {
+	    width: 100%
+	}
+	.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+.userLi {bottom: -170px;}
+/*wrap the entire page content but not nav inside this div if not a fixed top, don't add any top padding */
+#page-content {
+    position: relative;
+    padding-top: 70px;
+    left: 0;
+}
+}
+
+@media (min-width: 640px) and (max-width: 807px) {
+.navbar {display:block;}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+	float:left;
+}
+section {
+    width: 100% !important;
+}
+.mainMenu {display:none;}
+.marginLft22P {
+    margin-left: 0%;
+}
+.navbar {display:block;}
+.navbar-inverse {
+    background-color: #0bc3fd;
+    border-color: #0bc3fd;
+}
+#slide-nav .container {
+	    margin: 0;
+	    padding: 0!important;
+	}
+	#slide-nav .navbar-header {
+	    margin: 0 auto;
+	    padding: 0 15px;
+	}
+	#slide-nav .navbar.slide-active {
+	    position: absolute;
+	    width: 80%;
+	    top: -1px;
+	    z-index: 1000;
+	}
+	#slide-nav #slidemenu {
+	    background: #f7f7f7;
+	    left: -100%;
+	    width: 12%;
+	    min-width: 0;
+	    position: absolute;
+	    padding-left: 0;
+	    z-index: 2;
+	    top: -8px;
+	    margin: 0;
+	}
+	#slide-nav #slidemenu .navbar-nav {
+	    min-width: 0;
+	    width: 100%;
+	    margin: 0;
+	}
+	#slide-nav #slidemenu .navbar-nav .dropdown-menu li a {
+	    min-width: 0;
+	    width: 80%;
+	    white-space: normal;
+	}
+	#slide-nav {
+	    border-top: 0
+	}
+	#slide-nav.navbar-inverse #slidemenu {
+	    background: #333
+	}
+	/* this is behind the navigation but the navigation is not inside it so that the navigation is accessible and scrolls*/
+	#slide-nav #navbar-height-col {
+	    position: fixed;
+	    top: 0;
+	    height: 100%;
+	    width: 12%;
+	    left: -80%;
+	    background: #eee;
+	}
+	#slide-nav.navbar-inverse #navbar-height-col {
+	    background: #333;
+	    z-index: 1;
+	    border: 0;
+	}
+	#slide-nav .navbar-form {
+	    width: 100%;
+	    margin: 8px 0;
+	    text-align: center;
+	    overflow: hidden;
+	    /*fast clearfixer*/
+	}
+	#slide-nav .navbar-form .form-control {
+	    text-align: center
+	}
+	#slide-nav .navbar-form .btn {
+	    width: 100%
+	}
+	.navbar-toggle {display: block;}
+	#slide-nav .navbar-toggle {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    float: left;
+    height: 40px;
+    line-height: 0;
+    margin: 0 15px 0 16px;
+    padding: 10px 0 0;
+    position: relative;
+    width: 30px;
+}
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+.userLi {bottom: -170px;}
+.col-lg-12 {margin-top: 0px;}
+.col-lg-11 {width: 95%;}
+section {padding-bottom: 20px;}
+/*wrap the entire page content but not nav inside this div if not a fixed top, don't add any top padding */
+#page-content {
+    position: relative;
+    padding-top: 50px;
+    left: 0;
+}
+}
+
+@media (min-width: 808px) and (max-width: 999px) {
+
+
+}
+
+@media (min-width: 1000px) {
+
+}
+
+@media (min-width:768px) { 
+	
+}
+
+

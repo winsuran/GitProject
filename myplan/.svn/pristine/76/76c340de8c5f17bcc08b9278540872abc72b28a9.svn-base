@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+.calendarTable {
+	text-align:center;
+	font-size:14px;
+}
+.calendarTable th {
+    background: none repeat scroll 0 0 #00aeef;
+    border: 1px solid #e5e5e5;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    width: 12.8%;
+}
+.calendarTable td {
+    border: 1px solid #e5e5e5;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    width: 12.8%;
+	height:360px;
+	vertical-align:top;
+	padding:2px 0;
+}
+.calendarTable td div {vertical-align:middle; display:table-cell;}
+.hours {font-size:12px; width:100%; float:left; margin-top: 7%;}
+.term {font-size:12px; width:100%; float:left;}
+.subjectDiv {margin:1px;}
+@media (max-width: 639px) {
+
+
+}
+@media (min-width: 640px) and (max-width: 807px) {
+
+
+	
+}

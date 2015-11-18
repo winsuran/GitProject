@@ -1,0 +1,289 @@
+@charset "utf-8";
+
+.panel {
+    float: left;
+    font-size: 14px;
+    padding: 0;
+    width: 100%;
+}
+.panel-title {
+    float: left;
+    padding-top: 4px;
+    text-align: left;
+    width: 90%;
+}
+.panel-heading {
+    float: left;
+    padding: 5px 15px;
+    width: 100%;
+}
+.accordionUpArrow {
+    background: url("../images/upArrow.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: right;
+    height: 25px;
+    width: 25px;
+}
+h4 + .collapsed {
+    background: url("../images/upArrow.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: right;
+    height: 25px;
+    transform: rotate(180deg);
+    width: 25px;
+}
+.progressTable {
+    color: #575757;
+    font-size: 14px;
+    text-align: left;
+}
+.progressTable td {
+    padding: 2px 0;
+    vertical-align: top;
+}
+.progressTable th {
+    font-weight: bold;
+    text-align: center;
+}
+.btn-group > .btn, .btn-group > .dropdown-menu, .btn-group > .popover {
+    padding: 6px;
+}
+.progressTable input[type="text"] {
+    padding: 5px;
+}
+.progressTable .time {
+    padding: 5px;
+    width: 60px;
+}
+.progressTable .dash {
+    font-size: 19px;
+    font-weight: bold;
+    margin-right: -3px;
+}
+.progressTable .binTd {
+    padding-top: 6px;
+    width: 20px;
+}
+.progressTable .binTd a {
+    cursor: pointer;
+}
+.progressTable .title {
+    padding-top: 7px;
+    width: 281px;
+}
+.titleTh {
+    width: 251px !important;
+}
+.displayN {
+    display: none;
+}
+.addTopicBtn {
+    margin-top: 2px;
+    padding: 1px 14px;
+}
+.btn-warning {
+    background-color: #d9534f;
+    border-color: #d9534f;
+    color: #fff;
+    padding: 2px 10px;
+}
+.btn-warning:hover, .btn-warning:focus {
+    background-color: #cf2b26;
+}
+.progressTable .glyphicon-chevron-down::before {
+    content: "";
+    float: right;
+    font-size: 14px;
+    margin-bottom: -2px;
+    margin-left: 16px;
+}
+.topicTable {
+    color: #8c8c8c;
+    font-size: 13px;
+    width: 78%;
+}
+.subjectsDiv {
+    width: 500px;
+}
+.booksImg {
+    background: url("../images/subjectsImg.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    height: 43px;
+    margin-right: 20px;
+    width: 43px;
+}
+.subjectsDiv .modal-title, .subjectIn .modal-title {
+    margin-top: -5px;
+    width: 80%;
+}
+.modal-subtitle {
+    color: #7a7a7a;
+    font-size: 18px;
+    margin-bottom: -2px;
+    margin-top: -2px;
+    width: 80%;
+}
+.floatNone {
+    float: none !important;
+}
+.subjectsDiv p {
+    color: #7a7a7a;
+    float: none;
+    margin: 20px auto;
+    width: 62%;
+}
+.subjectsDiv a {
+    color: #00aeef;
+    cursor: pointer;
+}
+.subjectsDiv .modal-body {
+    min-height: 300px;
+}
+#filledSubjects .well {
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: -15px;
+    padding: 14px 15px;
+    width: 106%;
+}
+#filledSubjects .well:hover {
+    background-color: #e5e5e5;
+}
+#filledSubjects .well .colorBox {
+    background-color: #a8120e;
+    float: left;
+    height: 18px;
+    width: 18px;
+}
+#filledSubjects .well p {
+    color: #000;
+    float: left;
+    font-size: 16px;
+    margin: -3px 0 0 15px;
+    width: 50%;
+}
+#filledSubjects .well span {
+    font-size: 14px;
+}
+.leftmargin {
+    float: none;
+    margin: auto;
+}
+.bg_blue {
+    background-color: #0181b6;
+}
+.bg_green {
+    background-color: #187764;
+}
+.bg_pink {
+    background-color: #dd4a4a;
+    padding: 40px;
+}
+.top_heading_2 {
+    color: #fff;
+    font-family: "century_gothicbold";
+    font-size: 52px;
+    text-shadow: 1px 2px #000000;
+}
+.top_txt {
+    color: #fff;
+    font-size: 14px;
+}
+.top_heading {
+    color: #ffffff;
+    font-weight: 800;
+}
+.top_heading_1 {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-top: 5px;
+}
+.tb_align {
+    float: left;
+    padding: 10px 20px;
+    width: 100%;
+}
+.tb_align2 {
+    float: left;
+    padding: 10px 20px;
+    width: 100%;
+}
+.tb_align_1 {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.top_heading2 {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.txt {
+    color: #ffffff;
+    font-size: 14px;
+    width: 100%;
+}
+.txt_align {
+    font-size: 16px;
+    padding: 15px 15px 10px;
+}
+.div_align {
+    padding-top: 10px;
+}
+.main_bdr {
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    width: 83%;
+}
+.main_bdr_2 {
+    border-bottom: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    width: 83%;
+}
+.main_bdr_bot {
+    border: 1px solid #cccccc;
+    font-size: 24px;
+}
+#btn1:hover {
+    background-color: #cd4646;
+}
+.progress {
+    height: 36px;
+}
+.progress-bar {
+    line-height: 34px;
+}
+.div_h {
+    height: 68px;
+}
+.thumbnail {border-radius: 0;}
+@media (max-width: 639px) {
+section {height: 100%; padding-bottom: 30px !important;}
+.col-lg-12, .col-md-12 {
+    width: 100%;
+}
+.titleTh {
+    width: 182px !important;
+}
+.progressTable .title {
+    width: 180px;
+}
+.topicTable {
+    width: 73%;
+}
+.leftmargin {
+    margin-left: 1px;
+}
+}
+@media (min-width: 640px) and (max-width: 807px) {
+section {height: 100%; padding-bottom: 30px !important;}
+.col-lg-12, .col-md-12 {
+    width: 100%;
+}
+.col-md-6 {
+    width: 50%;
+}
+.leftmargin {
+    margin-left: 1px;
+}
+}

@@ -1,0 +1,159 @@
+.poss {
+	margin-left: 15px;
+	width: 97%;
+}
+.possbottom {
+	margin-left: 15px;
+	position: relative;
+	bottom: 0;
+}
+.dfirst {
+	border: 1px solid #e1e1e1;
+	border-radius: 5px;
+	background: #f5f5f5;
+	height: 42px;
+	padding-top: 10px;
+	padding-left: 20px;
+	color: #575757;
+	font-size: 18px;
+	width: 97%;
+}
+.dSecond {
+	border: 1px solid #e1e1e1;
+	border-radius: 5px;
+	background: #f5f5f5;
+	height: 42px;
+	padding-top: 10px;
+	padding-left: 20px;
+	color: #575757;
+	font-size: 18px;
+	width: 97%;
+}
+.bgimage {
+	margin-top: -32px;
+	/*background-image: url(../images/arrow.png);*/
+/*background-repeat:no-repeat; */
+	width: 25px;
+	height: 25px;
+	float: right;
+	margin-right: 47px;
+	cursor: pointer
+}
+#divtxt {
+	float: left;
+	margin-left: 15px;
+	width: 100%;
+	margin-top: 20px;
+	display: block;
+}
+#chart_div1 {
+	margin-top: 120px;
+	width: 300px;
+	padding-left: 30px;
+}
+#chart_div21 {
+	padding-left: 320px;
+	margin-top: -200px;
+	width: 215px;
+}
+#chart_div31 {
+	width: 900px;
+	padding-left: 600px;
+	margin-top: -200px;
+}
+#chart_div4 {
+	width: 800px;
+	height: 400px;
+	margin-top: 125px;
+	float: left;
+}
+.divht {
+	padding-top: 50px;
+}
+.piechart {
+	/*width: 300px;*/
+	margin-left: 15px;
+	/*margin-top: 30px;*/
+	float: left;
+}
+.clickUpArrow {
+	background: url("../images/arrow.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+	float: right;
+	height: 25px;
+	width: 25px;
+}
+.clickDownArrow {
+	background: url("../images/arrow1.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+	float: right;
+	height: 25px;
+	width: 25px;
+}
+.panel {
+	padding: 0;
+	float: left;
+	width: 100%;
+	font-size: 14px;
+}
+.panel-title {
+	text-align: left;
+	width: 90%;
+	float: left;
+	padding-top: 4px;
+}
+.panel-heading {
+	float: left;
+	padding: 12px 15px;
+	width: 100%;
+}
+.panel-collapse {
+	float: left;
+	width:100%;
+}
+.accordionUpArrow {
+	background: url(../images/upArrow.png);
+	height: 25px;
+	width: 25px;
+	float: right;
+	background-repeat: no-repeat;
+}
+h4 + .collapsed {
+	background: url(../images/upArrow.png);
+	height: 25px;
+	width: 25px;
+	float: right;
+	background-repeat: no-repeat;
+	transform: rotate(180deg);
+}
+.chartLabel {
+	text-align: center;
+	width: 100%;
+}
+
+.aaaa{
+	background: url(../images/dot1.png);
+	height: 15px;
+	width: 15px;
+	float: right;
+	background-repeat: no-repeat;
+	margin-right:85px; height:20px;
+	
+}
+.aaaa1{
+	background: url(../images/dot3.png);
+	height: 15px;
+	width: 15px;
+	float: right;
+	background-repeat: no-repeat; margin-right:85px; 
+	
+	
+}
+ @media (max-width: 639px) {
+.col-md-12 {
+	width: 100%;
+}
+}
+ @media (min-width: 640px) and (max-width: 807px) {
+.col-md-12 {
+	width: 100%;
+}
+}
